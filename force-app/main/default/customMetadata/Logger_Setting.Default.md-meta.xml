@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Default</label>
+    <protected>false</protected>
+    <values>
+        <field>Context_Field__c</field>
+        <value xsi:type="xsd:string">Context__c</value>
+    </values>
+    <values>
+        <field>Event_Object_Name__c</field>
+        <value xsi:type="xsd:string">System_Log_Event__e</value>
+    </values>
+    <values>
+        <field>Event_Payload_Field__c</field>
+        <value xsi:type="xsd:string">Payload__c</value>
+    </values>
+    <values>
+        <field>Level_Field__c</field>
+        <value xsi:type="xsd:string">Log_Level__c</value>
+    </values>
+    <values>
+        <field>Log_Object_Name__c</field>
+        <value xsi:type="xsd:string">System_Log__c</value>
+    </values>
+    <values>
+        <field>Masking_Keys__c</field>
+        <value xsi:type="xsd:string">password, token, secret, authorization</value>
+    </values>
+    <values>
+        <field>Message_Field__c</field>
+        <value xsi:type="xsd:string">Message__c</value>
+    </values>
+    <values>
+        <field>Reference_Id_Field__c</field>
+        <value xsi:type="xsd:string">Reference_Id__c</value>
+    </values>
+    <values>
+        <field>Stack_Trace_Field__c</field>
+        <value xsi:type="xsd:string">Stack_Trace__c</value>
+    </values>
+    <values>
+        <field>Use_Platform_Event__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>
